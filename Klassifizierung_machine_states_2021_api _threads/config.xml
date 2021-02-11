@@ -1,0 +1,22 @@
+<ConditionMonitoring>
+	<initID>
+
+        <API qarc = "https://qarc.cloud4machine.com"
+             qarclogin = "https://qarc.cloud4machine.com/cred/auth/enduser/login"
+             email = "simon.leiner@grob.de"
+             password = "grob_sL4568"/>
+        <Machine machineid = "G550-1148"/>
+
+
+        <MQTT broker_url = "qarc-mqtt.cloud4machine.com" broker_port = "8883"
+
+        topicproductionstates1 = "1000000/machines/testrule1/productionstates"
+        topicproductionstates2 = "1000000/machines/testrule2/productionstates"
+
+
+        ca_cert = ".\Certs\cumulative-qarc-ca.crt"
+        client_cert = ".\Certs\grob-qarc-leiner-1.crt"
+        client_key = ".\Certs\grob-qarc-leiner-1.key"/>
+
+	</initID>
+</ConditionMonitoring>
