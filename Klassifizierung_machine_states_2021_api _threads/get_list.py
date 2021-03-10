@@ -67,7 +67,7 @@ def get_list(inputlist):
                     start_time_for_counting = start_time_for_counting + timed
 
         # if you recieved data:
-        elif inputlist[3] in  collist:
+        elif inputlist[3] in collist:
 
             #add a new row at the end of the data and always loop for df -1
             new_row = {"startTime": inputlist[1]}

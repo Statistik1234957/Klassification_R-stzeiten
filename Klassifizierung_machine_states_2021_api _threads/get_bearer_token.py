@@ -37,6 +37,8 @@ def get_bearer_token(email,password,loginurl):
             continue
         break
 
+    print(token)
+
     return token
 
 

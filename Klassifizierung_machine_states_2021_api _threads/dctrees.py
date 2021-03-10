@@ -4,6 +4,8 @@ import numpy as np
 
 def dctreesmall(df):
 
+    """THis function computes the small decision tree"""
+
     conditions = [
         (df["stateduration"] <= 16450.0) & (df["averagespeed10"] > 500.5),
         (df["stateduration"] <= 16450.0) & (df["averagespeed10"] <= 500.5),
@@ -21,6 +23,7 @@ def dctreesmall(df):
 
 def dctreebig(df):
 
+    """ This function computes the big decision tree"""
 
     conditions = [
             (df["stateduration"] <= 16450.0)

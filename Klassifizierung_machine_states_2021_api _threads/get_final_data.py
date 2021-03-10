@@ -3,6 +3,8 @@
 
 def getdatasmall(df1):
 
+    """THis function simply returns onlly the for the decisiontree relevant Data"""
+
     listtodrop1 = [
         "speed",
         "ncprogram",
@@ -25,6 +27,8 @@ def getdatasmall(df1):
 
 
 def getdatabig(df2):
+
+    """THis function simply returns onlly the for the decisiontree relevant Data"""
 
     listtodrop2 = [
         "speed",

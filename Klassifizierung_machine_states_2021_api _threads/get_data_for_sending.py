@@ -67,7 +67,6 @@ def get_data_for_sending(endtime,starttime,bearer_token):
     # create data for sending
     data_outsmall = json.dumps(datasmallexport, indent=4, sort_keys=True, default=str)
 
-
     #convert to json for sending
     data_outbig = json.dumps(databigexport, indent=4, sort_keys=True, default=str)
 
