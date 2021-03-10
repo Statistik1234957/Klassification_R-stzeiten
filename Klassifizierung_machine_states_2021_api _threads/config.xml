@@ -3,8 +3,8 @@
 
         <API qarc = "https://qarc.cloud4machine.com"
              qarclogin = "https://qarc.cloud4machine.com/cred/auth/enduser/login"
-             email = "simon.leiner@grob.de"
-             password = "grob_sL4568"/>
+             email = ""
+             password = ""/>
         <Machine machineid = "G550-1148"/>
 
 
