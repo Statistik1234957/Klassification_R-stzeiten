@@ -1,4 +1,4 @@
-# Klassifizierung der Rüstzeiten
+# Klassifizierung und Validierung der Rüstzeitenerkennung
 
 Code für die Maschinen Testrule 1 und 2 im QARC Protal.
 
