@@ -1,0 +1,12 @@
+<ConditionMonitoring>
+	<initID>
+
+        <MQTT
+        broker_url = "qarc-mqtt.cloud4machine.com"
+        broker_port = "8883"
+        ca_cert = ".\Certs\cumulative-qarc-ca.crt"
+        client_cert = ".\Certs\grob-qarc-leiner-1.crt"
+        client_key = ".\Certs\grob-qarc-leiner-1.key"/>
+
+	</initID>
+</ConditionMonitoring>
